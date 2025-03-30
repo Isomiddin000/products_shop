@@ -10,6 +10,7 @@
     <nav class="navbar navbar-dark bg-dark p-3">
         <a class="navbar-brand" href="{{ route('products.index') }}">Mahsulotlar</a>
     </nav>
+    
 a
     <div class="container mt-4">
         @yield('content')

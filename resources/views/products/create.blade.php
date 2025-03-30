@@ -9,4 +9,5 @@
         <input type="number" name="price" placeholder="Narxi">
         <button type="submit">Saqlash</button>
     </form>
+    
 @endsection
