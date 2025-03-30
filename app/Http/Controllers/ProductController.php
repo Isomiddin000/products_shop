@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-
 class ProductController extends Controller
 {
     /**
@@ -16,7 +15,6 @@ class ProductController extends Controller
         $products = Product::all();
         return view('products.index', compact('products'));
     }
-
     /**
      * Yangi mahsulot yaratish formasi.
      */
