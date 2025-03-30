@@ -4,8 +4,12 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 
+
+
+
+
+
 Route::get('/', function () {
-    
     // $users = DB::table('users')->get();
     //  $users = DB::table('users')->where('status', 'active')->get();
     // $users = DB::table('users')->where('age', '>', 25)->get();
